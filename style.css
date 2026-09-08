@@ -62,22 +62,23 @@ ul {
 
 /* Styling the images section */
 
-.second-section-text{
-font-size: 36px;
-color: #1F2937;
-font-weight: 900;
-margin: 1rem;
-}
-
 .second-section{
+    padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.second-section-text{
+font-size: 36px;
+color: #1F2937;
+font-weight: 900;
+margin-bottom: 1rem;
+}
+
 
 .images{
     display: flex;
-    gap: 32px;
+    gap: 40px;
 
 }
 figure{
@@ -92,6 +93,67 @@ img{
     border-radius: 8px;
     border: 2px solid #1F2937 ;
 }
+
+/* Second section completed, 
+Styling the third section */
+
+.quotation{
+    background-color: #E5E7EB;
+    font-size: 32px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem 8rem;
+}
+
+.referrer{
+    margin: 0;
+    display: block;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* last box design started */
+
+.message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 2rem 8rem;
+    padding: 1.5rem 4rem;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+.last-box-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.last-box-text h3{
+    font-size: 20px;
+    margin: 0;
+    color: #E5E7EB;
+    display: inline;
+
+}
+.last-box-text p{
+    font-size: 16px;
+    color: #e5e7ebc7;
+    display: inline;
+}
+.last-box-button button{
+    border: 2px solid #e5e7ebe2;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 4px 20px;
+    cursor: pointer;
+    
+}
+
 
 
 
