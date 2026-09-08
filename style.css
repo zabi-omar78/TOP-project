@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero_section{
+    background-color: #1F2937;
+}
+
+
+/* .header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+div .hero-section{
+    background-color: #1F2937;
+}
+.hero-section-subtext, ul li a{
+font-size: 18px;
+color: #E5E7EB;
+}
+
+.message{
+    background-color: #3882F6;
+    font-size: 36px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}    */
