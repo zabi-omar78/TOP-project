@@ -6,6 +6,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Styling the header and the hero action */
+
 .header, .hero-section{
     background-color: #1F2937;
 }
@@ -36,6 +38,7 @@ ul {
 }
 
 .hero-section h1{
+    margin: 0;
     font-weight: bold;
     font-size:3em;
 }
@@ -56,6 +59,42 @@ ul {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Styling the images section */
+
+.second-section-text{
+font-size: 36px;
+color: #1F2937;
+font-weight: 900;
+margin: 1rem;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    gap: 32px;
+
+}
+figure{
+    width: 150px;
+    margin: 0;
+}
+figcaption{
+    text-align: center;
+    padding-top: 5px;
+}
+img{
+    border-radius: 8px;
+    border: 2px solid #1F2937 ;
+}
+
+
+
 
 /* .header{
     font-family: 'Roboto', sans-serif;
